@@ -1,5 +1,6 @@
 .header {
     margin-top: 25px;
+    min-height: 70px;
 }
 
 .logo h1 {
@@ -13,9 +14,7 @@
     border: 1px solid #ddd;
     color: #d19c97;
     margin-right: 5px;
-
 }
-
 
 .search-products input {
     width: 70%;
@@ -27,8 +26,9 @@
     border-radius: 0;
     color: #666;
 }
+
 .search-products input::focus {
-  outline: none;
+    outline: none;
 }
 
 .search-products button {
@@ -43,4 +43,43 @@
 
 .selected-products {
     text-align: right;
+}
+
+.banner-header {
+    border-top: 1px solid #ddd;
+}
+
+.sidebar {
+    height: 65px;
+    background-color: #d19c97;
+}
+
+.sidebar h4 {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 500;
+}
+
+.sidebar span {
+    float: right;
+    /* padding: 3px; */
+    margin-left: 120px;
+}
+
+.category-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ddd;
+}
+
+.category-list ul li {
+    padding: 10px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.category-list ul li a {
+    text-decoration: none;
+    color: #333;
 }

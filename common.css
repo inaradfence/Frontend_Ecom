@@ -8,6 +8,7 @@ body {
 .wrapper {
     margin-left: 5%;
     margin-right: 5%;
+    
 }
 
 .arrange-left {
@@ -42,4 +43,8 @@ body {
 .common-btn span i {
     padding-left: 5px;
     padding-right:5px;
+}
+
+.next-line{
+    clear: both;
 }
