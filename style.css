@@ -83,3 +83,48 @@
     text-decoration: none;
     color: #333;
 }
+
+.shop-menu {
+    display: flex;
+}
+
+.shop-menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.shop-menu ul li {
+    min-width: 75px;
+    padding: 20px;
+}
+
+.shop-menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.shop-menu ul li a:hover {
+        color: #d19c97;
+}
+
+.left-menu-list {
+    width: 70%;
+    display: flex;
+}
+
+.right-menu-list {
+    width: 30%;
+    direction: rtl;
+}
+
+.shop-menu ul .dropdown {
+    display: none;
+    border: 1px solid #ddd;
+    position: absolute;
+    box-shadow: #333 1px 1px 3px;
+}
+
+.dropdown-head:hover ul.dropdown {
+    display: block;
+}
