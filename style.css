@@ -104,8 +104,9 @@
     text-decoration: none;
     color: #333;
 }
+
 .shop-menu ul li a:hover {
-        color: #d19c97;
+    color: #d19c97;
 }
 
 .left-menu-list {
@@ -127,4 +128,50 @@
 
 .dropdown-head:hover ul.dropdown {
     display: block;
+}
+
+.banner {
+    position: relative;
+    height: 400px;
+    float: left;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner .banner-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    background-color: #00000042;
+}
+
+.banner-content h4 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.banner-content h3 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.banner-content a {
+    background-color: white;
+    color: #000;
+    padding: 10px 15px;
 }
